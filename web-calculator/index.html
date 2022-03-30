@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            font-weight: normal;
+            font-family: "Audiowide", sans-serif;
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+
+        .background {
+
+            background-image: url("pexels-pixabay-434337.jpg");
+            filter: blur(8px);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .grid {
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            padding: 20px;
+            text-align: center;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            grid-gap: 10px;
+            grid-template-columns: repeat(4, 100px);
+            grid-template-rows: repeat(4, 100px);
+        }
+
+        .grid button {
+            border: 1px solid black;
+            outline: none;
+            font-size: 3rem;
+            background-color: lightskyblue;
+
+        }
+
+        .grid button:hover {
+            background-color: aliceblue;
+        }
+
+        .output {
+            grid-column: 1 / -1;
+            background-color: black;
+            text-align: right;
+            padding: 20px;
+            font-size: 3rem;
+        }
+
+        .output result {
+            color: black;
+        }
+    </style>
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="grid">
+        <div class="output">
+            <div data-result class="result">0</div>
+        </div>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>/</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>X</button>
+        <button data-number>0</button>
+        <button data-clear>C</button>
+        <button data-equals>=</button>
+        <button data-operation>+</button>
+    </div>
+
+</body>
+
+</html>
