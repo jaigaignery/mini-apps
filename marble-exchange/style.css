@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-weight: normal;
+    font-family: "Audiowide", sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+p{
+    font-size: 15pt;
+}
+
+/*Form */
+
+.form-wrapper{
+    background-color: lightskyblue;
+    padding-bottom: 20px;
+}
+
+form{
+    width:790px;
+    margin:auto;
+    text-align: center;
+    padding: 20px;
+
+}
+#error{
+    color: red;
+}
+
+legend{
+    padding:12px;
+}
+
+fieldset{
+    font-size: 15pt;
+    text-align: left;
+    border: none;
+    padding-left: 270px;
+    padding-bottom: 30px;
+}
+
+#submit-form{
+    margin-top:20px;
+}
+/* Store */
+
+.grid {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 150px);
+    color: black;
+    margin:auto;
+    justify-content: center;
+    left: 50%;
+}
+
+.grid button {
+    border: 1px solid black;
+    outline: none;
+    font-size: 2rem;
+    background-color: lightskyblue;
+    height:150px;
+}
+.grid img {
+    border: 1px solid black;
+    outline: none;
+    font-size: 2rem;
+    background-color: lightskyblue;
+    height:150px;
+    width:200px;
+}
+
+.grid div{
+    padding-top: 40%;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    font-size: 1.75rem;
+    height: 100%;
+}
+
+.grid button:hover {
+    background-color: aliceblue;
+}
+
+.output{
+    grid-column: 1 / -1;
+    background-color: black;
+    text-align: right;
+    padding: 20px;
+    font-size: 1.75rem;
+    width:100%;
+}
+
+.welcome{
+    grid-column: 1 / -1;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    width:100%;
+    padding:2% !important;
+    background-color: white !important;
+}
+
+.aux-button{
+    grid-column: 1 / -1;
+    width: 100%;
+    height: 50px !important;
+}
+
+#grand-total{
+    grid-column: 1 / -1;
+    background-color: white;
+    text-align: right;
+    padding: 20px;
+    font-size: 2rem;
+    width: 100%;
+}
+
+
+
+/* Order Review*/
+
+.heading{
+    padding:15px !important;
+}
+
+.personal{
+    width:720px;
+    text-align: left;
+    left:50%;
+    margin:auto
+}
+
+ul{
+    font-size: 20pt;
+    display: inline-block;
+    text-align:left;
+}
+
+ol{
+    font-size: 20pt;
+    display: inline-block;
+    text-align:left;
+}
+
