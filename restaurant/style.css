@@ -1,0 +1,178 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+body,html {
+    margin:0;
+    padding:0;
+  }
+
+
+.top-container{
+    padding-top:200px;
+    width:1024px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container{
+    width: 1024px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:100px;
+    text-align: center;
+}
+
+header{
+    text-align:left;
+    width:1024px;
+    height:200px;
+    width:200px;
+    padding-left: 20px;
+    position:fixed;
+    top:0;
+
+}
+
+header img{
+    height:200px;
+}
+
+nav{
+    padding-top:30px;
+    font-size: 28px;
+    background-color: rgb(0, 0, 0, 0.35);
+    height:70px;    
+    color: white;
+    text-align: center;
+}
+
+nav a{
+    margin-left:50px;
+    margin-right:50px;
+    color:white;
+    text-decoration: none;
+}
+
+main{
+    margin-top:50px;
+    color: white;
+    font-size: 20pt;;
+}
+
+h1, h2{
+    font-weight: normal;
+}
+main h2{
+    text-align: left;
+}
+
+footer{
+    margin-top:40px;
+    background-color: rgba(128, 128, 128, 0.103);
+}
+
+footer nav{
+    padding-top:30px;
+    font-size: 15pt;
+    background-color: rgb(0, 0, 0, 0.35);
+    height:50px;    
+    color: white;
+    text-align: center;
+
+}
+
+#index-body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/MaiTai-On-Dark-And-Stormy-Food-Photography-Backdrop-HORZ.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+
+.topic{
+    height:300px;
+    text-align: center;
+    font-size: 70pt;
+    vertical-align: middle;
+    line-height: 300px;
+    color:white;
+}
+table, th, td{
+    text-align: left;
+    padding: 10px;;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+table{
+    margin-bottom: 50px;
+}
+
+a{
+    color:white;
+}
+
+p{ 
+    text-align: left;
+}
+
+section{
+    margin-bottom: 50px;
+    height: 400px;
+}
+
+#gallery-topper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/get-inspired-food-photography-tips-4-1920x1080-f9288d38-d5f8-11ea-9618-f8bc127793a9.jfif');
+    height:700px;
+    background-position: 0 -210px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact-topper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Osteria-Savio-Volpe_kb_stemarie_saviovolpe_eaststraightwide.jpg');
+    height:700px;
+    background-position: 0 -600px;
+    background-attachment: fixed;
+}
+
+#menu-topper{
+    background-image: url('images/hero_slide_3.jpg');
+    height:700px;
+    background-size: cover;
+    height:700px;
+}
+
+#specialties-topper{
+    background-image: url('images/honeycomb-6878.jpg');
+    height:700px;
+    background-size: cover;
+    background-position: 0 -200px;
+    background-attachment: fixed;
+}
+
+.rightfloater{
+    float:right;
+    padding: 0 0 20px 20px;
+    height: 300px;
+}
+
+.leftfloater{
+    float:left;
+    padding: 0px 20px 20px 20px;
+    height:300px;
+}
+
+#gallery-img img{
+    height:600px;
+    size:fixed;
+    padding-top:100px;
+}
